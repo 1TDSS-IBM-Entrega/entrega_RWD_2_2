@@ -15,6 +15,14 @@ export const PetCadastro = () =>{
         });
       };
 
+    const deleteFicha = (id) => {
+        setFicha((prevFicha) => {
+          return prevFicha.filter((ficha, index) => {
+            return index !== id;
+          });
+        });
+      };
+
         return (
         <>
         
