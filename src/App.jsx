@@ -1,5 +1,4 @@
-import {PetCadastro} from './Components/PetCadastro'
-
+import {PetCadastro } from "./Components/PetCadastro/PetCadastro"; 
 function App () {
   return(
     <div>
