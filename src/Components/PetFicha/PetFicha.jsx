@@ -1,3 +1,5 @@
+//preparando Pet ficha
+
 import { Div, H2, Button, IMG, P,SPAN, SPAN2 } from "./styled"
 
 export const PetFicha = ({id, name, age, size, breed, tutorName, tutorPhone, petImage, observations, onDelete}) => {
